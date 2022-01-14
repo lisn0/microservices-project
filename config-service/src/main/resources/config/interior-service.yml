@@ -1,0 +1,15 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/ministry_of_interior
+server:
+  port: 0
