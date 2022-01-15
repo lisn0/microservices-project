@@ -1,8 +1,3 @@
-management:
-  endpoints:
-    web:
-      exposure:
-        include: '*'
 eureka:
   client:
     serviceUrl:
@@ -10,6 +5,7 @@ eureka:
 spring:
   data:
     mongodb:
-      uri: mongodb://localhost:27017/ministry_of_interior
+      uri: mongodb+srv://bot:bot@cluster0.1f21b.mongodb.net/ministry_of_interior?retryWrites=true&w=majority
+#      uri: mongodb://localhost:27017/ministry_of_interior
 server:
   port: 0
