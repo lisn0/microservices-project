@@ -10,4 +10,4 @@ spring:
 server:
   port: 0
 test:
-  name: test12345
+  name: test12345678
