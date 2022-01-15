@@ -9,3 +9,5 @@ spring:
 #      uri: mongodb://localhost:27017/ministry_of_interior
 server:
   port: 0
+test:
+  name: test12345
