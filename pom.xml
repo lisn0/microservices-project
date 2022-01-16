@@ -16,9 +16,9 @@
     <modules>
         <module>discovery-service</module>
         <module>config-service</module>
-        <module>Ministry_of_Interior</module>
-        <module>ministry_of_finance</module>
-
+        <module>finance-service</module>
+        <module>interior-service</module>
+        <module>api-gateway-service</module>
     </modules>
 
 </project>
