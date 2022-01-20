@@ -14,7 +14,8 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Data
 public class Offence {
     @Id
-    public String id;
+    public String Id;
+    public String cin;
     public String name;
     public String type;
     public String description;

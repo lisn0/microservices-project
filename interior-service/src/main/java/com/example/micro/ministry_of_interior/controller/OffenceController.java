@@ -26,4 +26,10 @@ public class OffenceController {
     public void createOffence(@RequestBody Offence offence){
         offenceRepository.save(offence);
     }
+
+
+    @GetMapping("/{cin}")
+    public Offence findOffenceByCin(@PathVariable("cin") String cin){
+        return offenceRepository.findByCin(cin);
+    }
 }
